@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Intertobacco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="application.css">
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -52,9 +56,9 @@
 						</div>
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active"><%= link_to "О табаке", welcome_index_path %></li>
-								<li><a href="#tastes" class="scroll">Наши вкусы</a></li>
-								<li><a href="#port" class="scroll">О нас</a></li>
+								<li class="active"><%= link_to "О табаке", welcome_index_path(@welcome, anchor: "services") %></li>
+								<li><%= link_to "Наши вкусы", welcome_index_path(@welcome, anchor: "tastes") %></li>
+								<li><%= link_to "О нас", welcome_index_path(@welcome, anchor: "port") %></li>
 							</ul>
 							<a href="#" id="pull"><%= image_tag("menu-icon.png")%></a>
 						</nav>
@@ -64,6 +68,11 @@
 			</div>
       <%= render 'welcome/banner' %>
 		</div>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
     <%= yield %>
   </body>
 </html>
