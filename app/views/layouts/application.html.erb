@@ -2,13 +2,11 @@
 <html>
   <head>
     <title>Intertobacco</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="application.css">
+
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Montserrat:400,700' %>
@@ -68,11 +66,6 @@
 			</div>
       <%= render 'welcome/banner' %>
 		</div>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/wow.min.js"></script>
     <%= yield %>
   </body>
 </html>
