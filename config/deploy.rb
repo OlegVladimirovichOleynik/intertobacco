@@ -2,7 +2,7 @@
 lock "~> 3.10.1"
 
 set :application, "intertobacco"
-set :repo_url, "https://github.com/surrexi/intertobacco.git"
+set :repo_url, "https://github.com/OlegVladimirovichOleynik/intertobacco.git"
 
 # Ветка по-умолчанию
 set :branch, 'master'
