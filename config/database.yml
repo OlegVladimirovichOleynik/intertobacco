@@ -14,5 +14,3 @@ test:
 production:
   <<: *default
   database: intertobacco_production
-  username: intertobacco
-  password: <%= ENV['INTERTOBACCO_DATABASE_PASSWORD'] %>
