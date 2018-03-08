@@ -8,3 +8,5 @@ server ip, user: 'deploy', roles: %w{web app db}
 
 set :stage, 'production'
 set :rails_env, 'production'
+
+config.assets.precompile += %w( application.css application.js )
