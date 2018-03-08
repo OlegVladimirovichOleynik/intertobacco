@@ -1,5 +1,5 @@
 class TobaccoCipher < ApplicationRecord
-  before_create :set_cipher
+  #before_create :set_cipher
 
   private
 
