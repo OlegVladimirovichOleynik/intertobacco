@@ -11,10 +11,10 @@
 // about supported directives.
 //
 //= require rails-ujs
-= require turbolinks
+//= require turbolinks
 //= require_tree .
-= require cable
-= require easing
-= require jquery.min
-= require move-top
-= require wow.min
+//= require cable
+//= require easing
+//= require jquery.min
+//= require move-top
+//= require wow.min
