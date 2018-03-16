@@ -146,7 +146,7 @@ body a{
 
 /*-----END-TEST----*/
 .bg{
-	background:url(baner.jpg) no-repeat 0px 0px;
+	background: image-url(baner.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .tastesbg{
