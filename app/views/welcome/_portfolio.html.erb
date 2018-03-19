@@ -2,33 +2,33 @@
   <div class="portfolio-top">
     <div class="col-md-8">
       <div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
-        <h3>Линейки крепости</h3>
-        <p>Все линейки крепости изготавливаются из смеси табаков вирджиния и берли. Регулирование крепости происходит за счет разницы в методах обработки табачного листа и изменения процентного соотношения двух сортов</p>
+        <h3><%= t(:line) %></h3>
+        <p><%= t(:lineinfo) %></p>
         <div class="portfolio-top-left-grids">
           <div class="portfolio-top-left-grid">
             <div class="portfolio-top-left-grid-right">
-              <h5>Зеленая линейка</h5>
-              <p>Слабая крепость. 1 балл*</p>
+              <h5><%= t(:green) %></h5>
+              <p><%= t(:greeninfo) %></p>
             </div>
             <div class="clearfix"> </div>
           </div>
           <div class="portfolio-top-left-grid">
             <div class="portfolio-top-left-grid-right">
-              <h5>Желтая линейка</h5>
-              <p>Средняя крепость. 5 баллов</p>
+              <h5><%= t(:yellow) %></h5>
+              <p><%= t(:yellowinfo) %></p>
             </div>
             <div class="clearfix"> </div>
           </div>
           <div class="portfolio-top-left-grid">
             <div class="portfolio-top-left-grid-right">
-              <h5>Красная линейка</h5>
-              <p>Высокая крепость. 9 баллов</p>
+              <h5><%= t(:red) %></h5>
+              <p><%= t(:redinfo) %></p>
             </div>
             <div class="clearfix"> </div>
           </div>
         </div>
-        <p>*По стандартной шкале крепости кальянных табаков</p>
-        <p>Специальная линейка ZERO - полность безтабачная, безникотиновая смесь натуральных заменителей табака. В основе лежит микс Индийских трав, которые в самой Индии уже давно используются как аналог табаку. Вкус все тот же, а никотина ZERO.</p>
+        <p><%= t(:lineinfo2) %></p>
+        <p><%= t(:lineinfo3) %></p>
       </div>
     </div>
     <div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
@@ -40,8 +40,8 @@
     <!---- portfolio-works ---->
     <div id="tastes" class="tastes">
       <div class="tm-head">
-      <h3>Наши вкусы</h3>
-      <p>Здесь показаны популярные вкусы нашего табака.</p><br>
+      <h3><%= t(:tastes) %></h3>
+      <p><%= t(:title2) %></p><br>
     </div>
       <div class="portfolio-works">
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -50,7 +50,7 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Pink Panter</h4>
-          <p>Клубника как она есть. Розовая. Сладкая. Леденцовая.</p>
+          <p><%= t(:t1) %></p>
         </div>
       </div>
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -59,7 +59,7 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Durian</h4>
-          <p>Что за фрукт? Попробуйте, это не описать!</p>
+          <p><%= t(:t2) %></p>
         </div>
       </div>
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -68,7 +68,7 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Rose</h4>
-          <p>«Роза пахнет розой, Хоть розой назови ее, хоть нет.»</p>
+          <p><%= t(:t3) %></p>
         </div>
       </div>
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -77,7 +77,7 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Elki Palki</h4>
-          <p>На вкус – будто пожевал еловую веточку.</p>
+          <p><%= t(:t4) %></p>
         </div>
       </div>
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -86,7 +86,7 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Winnie Pooh</h4>
-          <p>Авторский вкус от Винни Пуха – гречишный мед.</p>
+          <p><%= t(:t5) %></p>
         </div>
       </div>
       <div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
@@ -95,11 +95,11 @@
         </div>
         <div class="portfolio-work-grid-caption">
           <h4>Galaxy </h4>
-          <p>Винограду каждый рад, особенно когда он так душист и ароматен.</p>
+          <p><%= t(:t6) %></p>
         </div>
       </div>
       <div class="clearfix"> </div><br>
-      <center><%= link_to "все вкусы", tastes_index_path(@tastes), :class => "leran-more" %></center>
+      <center><%= link_to t(:alltastes), tastes_index_path(@tastes, anchor: "tastes", :locale => I18n.locale), :class => "leran-more" %></center>
     </div>
   </div>
     <!---- portfolio-works ---->

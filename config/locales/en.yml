@@ -1,33 +1,60 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  logo: "Tobacco for those who understand"
+  tobacco: "On Tobacco"
+  tastes: "Our tastes"
+  about: "About us"
+  command: "Our team"
+  title2: "This shows the popular tastes of our tobacco."
+  t1: "Strawberry as it is. Pink. Sweet. Candy."
+  t2: "What kind of fruit? Try it, it can not be described!"
+  t3: "Rosa smells like a rose, Call her a rose, though not."
+  t4: "To taste - as if chewed spruce twig."
+  t5: "Author's taste of Winnie the Pooh - buckwheat honey."
+  t6: "Vinogradu everyone is happy, especially when he is so fragrant and fragrant."
+  t7: "A little nutty, spicy and sweet dessert for those on a diet, because no calories."
+  t8: "Drink, children, milk, or smoke. + Milk + spices = tasty. Mu! "
+  t9: "The taste is pleasantly minty."
+  t10: "Pure unflavored sweet Burli."
+  t11: "A green apple is like straight from a branch. Crunchy. Juicy."
+  t12: "Clockwork orange: fresh, juicy and orange, like the sun at sunrise."
+  t13: "The taste of the legendary pear soda - straight from childhood."
+  t14: "Grandma's cranberry mors, sour and with characteristic bitterness."
+  t15: "Prunes, as of compote, but only delicious."
+  t16: "Fried seeds are a favorite taste of all the guys in the area."
+  alltastes: "All tastes"
+  aboutinto: "Intretobacco corporation is an international corporation with a head office in Sofia, Bulgaria.In Russia, the representation of Intertobacco RUS is located in St. Petersburg.The company's activity is based on 4 pillars:"
+  about1: "Naturalness"
+  about11: "All components of New Yorker are natural and permissible even for consumption (but still, tobacco is not recommended :)"
+  about2: "Compliance with the norms"
+  about22: "The product itself, like its components, has all the necessary licenses and certificates"
+  about3: "Price"
+  about33: "The company promotes adequate pricing: the product must be available to the consumer!"
+  about4: "Moving forward"
+  about44: "Not a step on the spot! The development of new markets and the development of new tastes are ongoing"
+  contacts: "Contacts:"
+  mail: "Mail:"
+  phone: "Phone:"
+  line: "Rulers of the Fortress"
+  lineinfo: "All the rulers of the fortress are made from a mixture of virginia and berli tobaccos, regulation of the fortress is due to the difference in methods of processing tobacco leaf and changing the percentage ratio of two varieties"
+  green: "Green ruler"
+  greeninfo: "Weak fortress, 1 point *"
+  yellow: "Yellow ruler"
+  yellowinfo: "The average fortress, 5 points"
+  red: "Red ruler"
+  redinfo: "High fortress, 9 points"
+  lineinfo2: "* According to the standard scale of the fortress of hookah tobaccos"
+  lineinfo3: "The special ZERO line is completely non-tobacco, a non-nicotine blend of natural tobacco substitutes, based on a mix of Indian herbs that have been used in India for a long time as an analog of tobacco. The taste is the same, and the nicotine ZERO. "
+  infotobacco: "Tobacco"
+  infotobacco2: "The combination of varieties of virginia and berli"
+  infoaroma: "Flavors"
+  infoaroma2: "Natural food flavors: The taste does not disappear after an hour of smoking"
+  infoconstituents: "Components"
+  infoconstituents2: "Caramel and reed molasses + glycerin = sea of ​​smoke and high heat resistance"
+  infoquality: "Quality Protection"
+  infoquality2: "The unique code on each bundle is the test for originality on the site"
+  titlecipher: "Check the tobacco for authenticity"
+  titlecipher2: "Here you can check whether the original tobacco or you have purchased a fake"
+  check: "Check"
+  notice: "Congratulations, you have our product!"
+  error: "Looks like you have a fake!"
+  entercode: "enter the code"

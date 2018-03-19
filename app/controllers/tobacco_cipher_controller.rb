@@ -1,9 +1,9 @@
 class TobaccoCipherController < ApplicationController
   def check_cipher
     if TobaccoCipher.where(cipher: cipher_params[:cipher]).exists?
-      flash[:notice] = 'Поздравляю, у вас наш продукт!'
+      flash[:notice] = t(:notice)
     else
-      flash[:error] = "Похоже у вас подделка!"
+      flash[:error] = t(:error)
     end
     redirect_to root_path :action => 'check_cipher'
   end

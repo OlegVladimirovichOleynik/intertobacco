@@ -1,12 +1,12 @@
 <div class="form_for_check">
   <center>
     <div class="agileits_w3layouts_banner_info">
-        <h2>Проверить табак на подлинность</h2>
-        <h3>Здесь вы можете проверить, подлинный табак или же вы приобрели подделку</h3>
+        <h2><%= t(:titlecipher) %></h2>
+        <h3><%= t(:titlecipher2) %></h3>
         <div class="row">
         <%= form_for :cipher, url: { action: 'check_cipher', controller: 'tobacco_cipher' }, remote: true do |f| %>
-          <%= f.text_field :cipher, required: true, placeholder: 'введите код',  value: '' %>
-          <%= f.submit 'Проверить' %>
+          <%= f.text_field :cipher, required: true, placeholder: t(:entercode),  value: '' %>
+          <%= f.submit t(:check) %>
         <% end %>
       </div>
     </div>
