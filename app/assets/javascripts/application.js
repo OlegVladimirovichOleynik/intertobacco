@@ -12,8 +12,8 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
 //= require jquery.min
+//= require_tree .
 //= require cable
 //= require easing
 //= require move-top
