@@ -74,10 +74,8 @@ body a{
 }
 
 .agileits_w3layouts_banner_info h2{
-	font-size:2em;
 	color: yellow;
-	text-transform: uppercase;
-	line-height:2em;
+  font-size: 200%;
 }
 .agileits_w3layouts_banner_info h3{
 	font-size:1em;
@@ -149,6 +147,7 @@ body a{
 	background: url(startpage.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
+
 .tastesbg{
 	background: #000;
 	background-size:cover;
@@ -344,10 +343,8 @@ nav a#pull {
 	padding:3em 0;
 }
 .service-head h2{
-	font-weight:900;
-	font-size:2.6em;
+	font-size: 200%;
 	color:yellow;
-	text-transform:uppercase;
 }
 .service-head span{
 	width:15%;
@@ -401,10 +398,8 @@ nav a#pull {
 	min-height: 656px;
 }
 .expertise-head h3{
-	font-weight: 900;
-	font-size: 2.5em;
+	font-size: 200%;
 	color: yellow;
-	text-transform: uppercase;
 	margin: 0.3em 0 0.6em;
 }
 .expertise-head p{
@@ -437,7 +432,6 @@ nav a#pull {
 	font-size:1.2em;
 	color:yellow;
 	text-transform:uppercase;
-	font-weight:600;
 }
 .e-left-inner-grid-right p{
 	font-weight: 400;
@@ -483,6 +477,7 @@ a.leran-more:hover{
 }
 .expertise-left-inner-grids{
 	padding:2em 0;
+  margin-left: -60px;
 }
 /*---- portflio ----*/
 .portfolio-top-left{
@@ -490,10 +485,8 @@ a.leran-more:hover{
 	background: url(portbg-1.png) no-repeat 68% 69%;
 }
 .portfolio-top-left h3{
-	font-weight: 900;
-	font-size: 2.5em;
+	font-size: 200%;
 	color: yellow;
-	text-transform: uppercase;
 	margin: 0.3em 0 0.6em;
 }
 .portfolio-top-left p{
@@ -544,8 +537,8 @@ a.leran-more:hover{
 	background-position: 0px -179px;
 }
 .portfolio-top-right{
-	min-height:650px;
-	background:url(port-right-divice.jpg) no-repeat 0px 70px;
+	min-height:500px;
+	background:url(port-right-divice.jpg) no-repeat -230px 120px;
 	background-size:cover;
 }
 .portfolio-top-right-inner{
@@ -738,10 +731,9 @@ a.leran-more:hover{
 	text-align:center;
 }
 .tm-head h3{
-	font-size: 3.3em;
+	font-size: 200%;
 	font-family: 'Montserrat', sans-serif;
 	color: yellow;
-	text-transform: uppercase;
 }
 .tm-head p{
 	font-family: 'Open Sans', sans-serif;
@@ -1064,6 +1056,11 @@ a.leran-more:hover{
 	.container{
 		width:80%;
 	}
+  .portfolio-top-right{
+  	min-height:500px;
+  	background:url(port-right-divice.jpg) no-repeat 0px 0px;
+  	background-size:cover;
+  }
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
     width: 100%;
@@ -1248,6 +1245,14 @@ a.leran-more:hover{
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
 	}
+  .portfolio-top-left-grid-right h5{
+    margin-left: 10px;
+  }
+  .portfolio-top-right{
+  	min-height:500px;
+  	background:url(port-right-divice.jpg) no-repeat -230px 0px;
+  	background-size:cover;
+  }
 	.banner-info {
 		padding: 3em 0 4em;
 	}
@@ -1264,6 +1269,7 @@ a.leran-more:hover{
 	}
 	.portfolio-top-left-grid-right p {
 		width: 100%;
+    margin-left: 10px;
 	}
 	.portfolio-top-left {
 		background: url(portbg-1.png) no-repeat 68% 51%;
@@ -1346,6 +1352,7 @@ a.leran-more:hover{
 	}
 	.expertise-left-inner-grids {
 		padding: 1em 0;
+    margin-left: -85px;
 	}
 	.portfolio-top-left h3 {
 		font-size: 2em;
@@ -1358,7 +1365,8 @@ a.leran-more:hover{
 	}
 	.copy-right p{
 		padding:1.5em 0 1.2em;
-		margin-top:3em;
+		margin-top:1em;
+    margin-left: 19px;
 	}
 	.contact-right input[type="text"], .contact-right textarea,.contact-right input[type="submit"]{
 		-webkit-appearance:none;
@@ -1377,6 +1385,13 @@ a.leran-more:hover{
 	.portfolio-work-grid-caption {
 		padding: 0.5em 1em 0em 1em;
 	}
+  .portfolio-top-left-grid-right h5{
+    margin-left: 0px;
+  }
+  .agileits_w3layouts_banner_info h2{
+  	color: yellow;
+    font-size: 1.6em;
+  }
 	.banner-info {
 		padding: 2em 0 3em;
 	}
@@ -1393,6 +1408,7 @@ a.leran-more:hover{
 	}
 	.portfolio-top-left-grid-right p {
 		width: 100%;
+    margin-left: 0px;
 	}
 	.portfolio-top-left {
 		background: url(portbg-1.png) no-repeat 68% 51%;
@@ -1476,6 +1492,7 @@ a.leran-more:hover{
 	}
 	.expertise-left-inner-grids {
 		padding: 1em 0;
+    margin-left: -60px;
 	}
 	.portfolio-top-left h3 {
 		font-size: 2em;
@@ -1488,7 +1505,8 @@ a.leran-more:hover{
 	}
 	.copy-right p{
 		padding:1.5em 0 1.2em;
-		margin-top:3em;
+		margin-top:1em;
+    margin-left: 16px;
 	}
 	.e-left-inner-grid-right h4 {
 		font-size: 1.1em;
