@@ -81,7 +81,7 @@ body a{
 }
 .agileits_w3layouts_banner_info h3{
 	font-size:1em;
-	color: yellow;
+	color: #fff;
 	text-transform: lowercase;
 	line-height:2em;
 }
@@ -146,7 +146,7 @@ body a{
 
 /*-----END-TEST----*/
 .bg{
-	background: url(baner.jpg) no-repeat 0px 0px;
+	background: url(startpage.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .tastesbg{
@@ -375,7 +375,7 @@ nav a#pull {
 	font-weight:400;
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.7em;
-	color:yellow;
+	color: #fff;
 }
 .service-grid span.service-icon1{
 	background-position:0px 0px;
@@ -411,7 +411,7 @@ nav a#pull {
 	font-weight:400;
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.7em;
-	color:yellow;
+	color: #fff;
 }
 .e-left-inner-grid-left{
 	float:left;
@@ -443,7 +443,7 @@ nav a#pull {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7em;
-	color: yellow;
+	color: #fff;
 }
 .e-left-inner-grid-left span.e-icon1{
 	background-position:0px 0px;
@@ -500,7 +500,7 @@ a.leran-more:hover{
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7em;
-	color: yellow;
+	color: #fff;
 }
 .portfolio-top-left-grid-left{
 	float:left;
@@ -541,7 +541,7 @@ a.leran-more:hover{
 	background-position: 0px -90px;
 }
 .portfolio-top-left-grid-left span.p-icon3{
-	background-position: 0px -183px;
+	background-position: 0px -179px;
 }
 .portfolio-top-right{
 	min-height:650px;
@@ -745,7 +745,7 @@ a.leran-more:hover{
 }
 .tm-head p{
 	font-family: 'Open Sans', sans-serif;
-	color: yellow;
+	color: #fff;
 	margin: 0 auto;
 	font-size: 1em;
 	line-height: 1.44em;
