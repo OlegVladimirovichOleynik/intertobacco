@@ -1056,6 +1056,9 @@ a.leran-more:hover{
 	.container{
 		width:80%;
 	}
+  .logonew img{
+    width: 100%;
+  }
   .portfolio-top-right{
   	min-height:500px;
   	background:url(port-right-divice.jpg) no-repeat 0px 0px;
@@ -1149,6 +1152,10 @@ a.leran-more:hover{
 	.container{
 		width:80%;
 	}
+  h4,
+  .h4 {
+    font-size: 12px;
+  }
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
 	}
@@ -1242,6 +1249,10 @@ a.leran-more:hover{
 	.container{
 		width:80%;
 	}
+  .logo img{
+    width: 180px;
+    margin-top: 10px;
+  }
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
 	}
