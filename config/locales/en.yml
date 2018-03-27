@@ -1,9 +1,11 @@
 en:
   logo: "Tobacco for those who understand"
+
   tobacco: "About New YorkeR"
   tastes: "Flavors"
   about: "About us"
   command: "Our team"
+
   title2: "Bellow you can see NYR top-sellers"
   t1: "Strawberry as it is. Pink. Sweet. Candylike"
   t2: "What’s the fruit? Just try, this flavor can’t be described!"
@@ -22,6 +24,7 @@ en:
   t15: "Prunes as from oriental shop of dried fruits and sweets."
   t16: "Fried sunflower seeds are the trademark of Russian street style. That’s something!"
   alltastes: "All flavors"
+
   aboutinfo: "InterTobacco corporation is an international company with a head office in Sofia, Bulgaria. Russian representative office InterTobacco RUS is located in St. Petersburg. The company’s politics is based on 4 principles:"
   about1: "Naturalness"
   about11: "All NYR components are natural and even suitable for food (except for tobacco)."
@@ -31,9 +34,11 @@ en:
   about33: "The company promotes adequate pricing: the product must be available for the customer!"
   about4: "Moving forward"
   about44: "Constant search for new striking flavors and development of new markets is our number one priority."
+
   contacts: "Contact us"
   mail: "Email:"
   phone: "Phone:"
+
   line: "Tobacco’s strength rate"
   lineinfo: "New YorkeR has three lines with different strength rates. All three lines are made of Virginia and Burley. Variety of strength rates is caused by different methods of processing tobacco leaves and different percentage ratio of two tobacco varieties."
   green: "Green line"
@@ -44,6 +49,7 @@ en:
   redinfo: "Maximum strength. 9 points."
   lineinfo2: " * According to standard scale of hookah tobacco’s strength (from 0 to 10)"
   lineinfo3: "Special ZERO line –completely tobacco and nicotine free blend of natural tobacco substitutes. Blend is made of a mix of Indian herbs which in India have been used as analog of tobacco for a long time already. The taste is the same but ZERO nicotine."
+
   infotobacco: "Tobacco"
   infotobacco2: "Combination of Virginia and Burley tobacco leaves."
   infoaroma: "Flavoring"
@@ -52,6 +58,7 @@ en:
   infoconstituents2: "Caramel and cane syrup + glycerin = lots of smoke and high heat resistance."
   infoquality: "Quality protection"
   infoquality2: "Unique code on every pack – “Fake or Not” test on the website."
+
   titlecipher: "Fake or Not"
   titlecipher2: "Using this form you can check whether you have original New YorkeR tobacco or counterfeit."
   check: "Check"
