@@ -142,6 +142,25 @@ body a{
 }
 
 /*-----END-TEST----*/
+
+/*------start Back-front img------*/
+
+.back img {
+  display: none;
+}
+
+@media (max-width:640px){
+  .back img{
+    display: block;
+  }
+  .front img{
+    display: none;
+  }
+}
+
+
+/*------end Back-front img------*/
+
 .bg{
 	background: url(startpage.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -288,7 +307,6 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url(nav-icon.png) no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -497,7 +515,6 @@ a.leran-more:hover{
 /*---- portflio ----*/
 .portfolio-top-left{
 	padding:3em 3em 3em 5em;
-	background: url(portbg-1.png) no-repeat 68% 69%;
 }
 .portfolio-top-left h3{
 	font-size: 200%;
@@ -1053,9 +1070,6 @@ a.leran-more:hover{
 	.portfolio-top-left-grid-right p {
 		width: 100%;
 	}
-	.portfolio-top-left {
-		background: url(portbg-1.png) no-repeat 68% 51%;
-	}
 	.about-time-line > li .cbp_tmlabel {
 		width: 55%;
 		margin: 0% 0 0px -23%;
@@ -1068,6 +1082,9 @@ a.leran-more:hover{
 	}
 }
 @media (max-width:768px){
+  .expertice-right-grid{
+    display: none;
+  }
 	.container{
 		width:80%;
 	}
@@ -1078,6 +1095,7 @@ a.leran-more:hover{
   	min-height:500px;
   	background:url(port-right-divice.jpg) no-repeat 0px 0px;
   	background-size:cover;
+    width: 300%;
   }
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
@@ -1097,7 +1115,6 @@ a.leran-more:hover{
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 4em 1.5em 4em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -1164,8 +1181,14 @@ a.leran-more:hover{
 	}
 }
 @media (max-width:640px){
+  .portfolio-top-right {
+  min-height:300px;
+  background:url(port-right-divice.jpg) no-repeat 0px 0px;
+  background-size:cover;
+  width: 100%;
+  }
   .social {
-    top: -250px;
+    top: -170px;
   }
   .social img {
     width:70%;
@@ -1198,7 +1221,6 @@ a.leran-more:hover{
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 3em 1.5em 3em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -1310,7 +1332,6 @@ a.leran-more:hover{
     margin-left: 10px;
 	}
 	.portfolio-top-left {
-		background: url(portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 2em 1.5em 1.8em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -1455,7 +1476,6 @@ a.leran-more:hover{
     margin-left: 0px;
 	}
 	.portfolio-top-left {
-		background: url(portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 1em 1.5em 1em;
 	}
 	.about-time-line > li .cbp_tmlabel {
