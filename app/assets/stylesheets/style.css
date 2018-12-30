@@ -381,6 +381,15 @@ nav a#pull {
 		padding: 0.4em 0;
 	}
 }
+
+/*fox start*/
+.fox-image {
+	min-height:350px;
+	background:url(fox.jpg) no-repeat;
+	background-size:100%;
+}
+/*fox end*/
+
 /*Smartphone*/
 @media only screen and (max-width : 320px) {
 	nav {
