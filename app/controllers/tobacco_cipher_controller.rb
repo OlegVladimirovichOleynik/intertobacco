@@ -8,6 +8,15 @@ class TobaccoCipherController < ApplicationController
       elsif @cipher.where(number_cheks: 1).exists?
         @cipher.update(number_cheks: 2)
         flash[:notice] = t(:notice)
+      elsif @cipher.where(number_cheks: 2).exists?
+        @cipher.update(number_cheks: 3)
+        flash[:notice] = t(:notice)
+      elsif @cipher.where(number_cheks: 3).exists?
+        @cipher.update(number_cheks: 4)
+        flash[:notice] = t(:notice)
+      elsif @cipher.where(number_cheks: 4).exists?
+        @cipher.update(number_cheks: 5)
+        flash[:notice] = t(:notice)
       else
         flash[:error] = t(:error)
       end
