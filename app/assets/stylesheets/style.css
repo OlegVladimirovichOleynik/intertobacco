@@ -502,11 +502,11 @@ nav a#pull {
 	background:#000;
 }
 .expertice-right-grid{
-	margin: 0;
+	margin-top: 90px;
 	padding: 0;
 	background: url(expert.jpg) no-repeat 0px 0px;
 	background-size: cover;
-	min-height: 656px;
+	height: 656px;
 }
 .expertise-head h3{
 	font-size: 200%;
@@ -591,6 +591,12 @@ a.leran-more:hover{
   margin-left: -60px;
 }
 /*---- portflio ----*/
+.fox {
+  margin-top: 50px;
+}
+.portflio {
+  padding: 200px;
+}
 .portfolio-top-left{
 	padding:3em 3em 3em 5em;
 }
@@ -648,8 +654,10 @@ a.leran-more:hover{
 }
 .portfolio-top-right{
 	min-height:500px;
-	background:url(port-right-divice.jpg) no-repeat -230px 80px;
+  margin-top: 115px;
+	background:url(port-right-divice.jpg) no-repeat 0px 0px;
 	background-size:cover;
+  width: 100%;
 }
 .portfolio-top-right-inner{
 	padding:0;
@@ -1161,7 +1169,13 @@ a.leran-more:hover{
 }
 @media (max-width:768px){
   .expertice-right-grid{
-    display: none;
+    width: 100%;
+    height: 415px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  #contacts {
+    margin-bottom: 30px;
   }
 	.container{
 		width:80%;
@@ -1174,6 +1188,7 @@ a.leran-more:hover{
   	background:url(port-right-divice.jpg) no-repeat 0px 0px;
   	background-size:cover;
     width: 300%;
+    margin-top: 0;
   }
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
